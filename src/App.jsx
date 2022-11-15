@@ -53,7 +53,7 @@ function App() {
       <Modal
       isOpen={modal}
       onRequestClose={modal}
-      className="object-cover translate-x-[19%] w-[18rem] h-[15rem] xl:h-[21rem] translate-y-[100%] border bg-white rounded-[1rem] xl:top-[50%] xl:left-[54%] xl:right-auto xl:bottom-auto w-[23.1rem] xl:pl-[-50%] xl:translate-x-[76%] xl:translate-y-[47%] xl:rounded-[1rem] xl:border xl:bg-white xl:w-[36rem]"
+      className="ml-[.5rem] xl:-ml:[0rem] object-cover translate-x-[19%] w-[18rem] h-[15rem] xl:h-[21rem] translate-y-[100%] border bg-white rounded-[1rem] xl:top-[50%] xl:left-[54%] xl:right-auto xl:bottom-auto xl:pl-[-50%] xl:translate-x-[76%] xl:translate-y-[47%] xl:rounded-[1rem] xl:border xl:bg-white xl:w-[36rem]"
       
       >
       <ConnectWalletScreen CloseModal={CloseModal}/> 
