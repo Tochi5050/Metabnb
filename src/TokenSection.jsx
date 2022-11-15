@@ -3,7 +3,7 @@ import MBToken from './assets/Token.png'
 import MBText from './assets/MBToken.png'
 import Metamask from './assets/Metamask.png'
 import OpenseaToken from './assets/openseatoken.png'
-import Opensea from './assets/Opensea.png'
+
 
 
 const TokenSection = () => {
