@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "RED ROSE";
+    src: url("/Red_Rose/static/RedRose-Bold.ttf");
+  }
