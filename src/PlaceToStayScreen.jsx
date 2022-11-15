@@ -58,7 +58,7 @@ const PlaceToStayScreen = () => {
   return (
     <div>
         <div className="fixed xl:relative z-30 top-0 left-0 right-0 bg-white overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide py-4 flex flex-row xl:flex xl:flex-row xl:justify-around xl:mt-2">
-        <Link to="/"><span className="cursor-pointer flex flex-row mt-[1.6rem] xl:cursor-pointer xl:flex xl:flex-row xl:mt-[1.6rem]"><img src={Meta_Building} alt="meta-building"/><img src={Metabnb} alt="metabnb"/></span></Link>
+        <Link to="/"><span className="md:object-cover md:ml-[3rem] md:w-[6rem] md:h-[1rem] md:mt-[2.4rem] cursor-pointer flex flex-row mt-[1.6rem] xl:cursor-pointer xl:flex xl:flex-row xl:mt-[1.6rem]"><img src={Meta_Building} alt="meta-building"/><img src={Metabnb} alt="metabnb"/></span></Link>
             <span className="flex flex-row justify-between ml-[3rem] mt-9 font-semibold xl:flex xl:flex-row xl:justify-between xl:mt-9 xl:font-semibold">
             <p className='cursor-pointer mr-[-.8rem] xl:cursor-pointer xl:mr-[19rem] font-redrose'><Link to="/">Home</Link></p>
             <p className="cursor-pointer ml-[3rem] xl:cursor-pointer xl:ml-[-15rem] font-redrose"><Link to="/placetostay">Place to stay</Link></p>
@@ -83,81 +83,81 @@ const PlaceToStayScreen = () => {
         </div>
      </div>
 
-     <div className='xl:ml-[5.3rem] ml-[2.8rem] xl:mt-[4rem] mt-[12rem] flex flex-col xl:flex xl:flex-row justify-between object-cover w-[21rem] h-[21rem] xl:w-[22.5rem] xl:h-[22.5rem]'>
-          <img src={ScreenFive} className="mr-4"/>
-          <img src={ScreenSix} className="mr-4 xl:mt-0 mt-3"/>
-          <img src={ScreenSeven} className="mr-4 xl:mt-0 mt-3"/>
-          <img src={ScreenEight} className="mr-4 xl:mt-0 mt-3"/>
+     <div className='xl:ml-[5.3rem] ml-[2.8rem] xl:mt-[4rem] mt-[12rem] md:grid md:grid-cols-2 md:gap-2 md:w-[47rem] md:h-[47rem] flex flex-col xl:flex xl:flex-row justify-between object-cover w-[21rem] h-[21rem] xl:w-[22.5rem] xl:h-[22.5rem]'>
+          <img src={ScreenFive} className="mr-4 md:mt-3"/>
+          <img src={ScreenSix} className="mr-4 xl:mt-0 mt-3 md:mt-3"/>
+          <img src={ScreenSeven} className="mr-4 xl:mt-0 mt-3 md:mt-3"/>
+          <img src={ScreenEight} className="mr-4 xl:mt-0 mt-3 md:mt-3"/>
         </div>
      
      
-     <div className='xl:ml-[5.3rem] ml-[2.8rem] xl:mt-[4rem] mt-[84rem] flex flex-col xl:flex xl:flex-row justify-between object-cover w-[21rem] h-[21rem] xl:w-[22.5rem] xl:h-[22.5rem]'>
-          <img src={ScreenOne} className="mr-4"/>
-          <img src={ScreenTwo} className="mr-4 xl:mt-0 mt-3"/>
-          <img src={ScreenThree} className="mr-4 xl:mt-0 mt-3"/>
-          <img src={ScreenFour} className="mr-4 xl:mt-0 mt-3"/>
+     <div className='xl:ml-[5.3rem] ml-[2.8rem] xl:mt-[4rem] mt-[84rem] md:mt-[3rem] md:grid md:grid-cols-2 md:gap-4 md:w-[47rem] md:h-[47rem] flex flex-col xl:flex xl:flex-row justify-between object-cover w-[21rem] h-[21rem] xl:w-[22.5rem] xl:h-[22.5rem]'>
+          <img src={ScreenOne} className="mr-4 md:mt-3"/>
+          <img src={ScreenTwo} className="mr-4 xl:mt-0 mt-3 md:mt-3"/>
+          <img src={ScreenThree} className="mr-4 xl:mt-0 mt-3 md:mt-3"/>
+          <img src={ScreenFour} className="mr-4 xl:mt-0 mt-3 md:mt-3"/>
         </div>
 
 
-        <div className='xl:ml-[5.3rem] ml-[2.8rem] xl:mt-[4rem] mt-[84rem] flex flex-col xl:flex xl:flex-row justify-between object-cover w-[21rem] h-[21rem] xl:w-[22.5rem] xl:h-[22.5rem]'>
-          <img src={ScreenNine} className="mr-4"/>
-          <img src={ScreenTen} className="mr-4 mr-4 xl:mt-0 mt-3"/>
-          <img src={ScreenEleven} className="mr-4 mr-4 xl:mt-0 mt-3"/>
-          <img src={ScreenTwelve} className="mr-4 mr-4 xl:mt-0 mt-3"/>
+        <div className='xl:ml-[5.3rem] ml-[2.8rem] xl:mt-[4rem] mt-[84rem] md:mt-[3rem] md:grid md:grid-cols-2 md:gap-4 md:w-[47rem] md:h-[47rem] flex flex-col xl:flex xl:flex-row justify-between object-cover w-[21rem] h-[21rem] xl:w-[22.5rem] xl:h-[22.5rem]'>
+          <img src={ScreenNine} className="mr-4 md:mt-3"/>
+          <img src={ScreenTen} className="mr-4 mr-4 xl:mt-0 mt-3 md:mt-3"/>
+          <img src={ScreenEleven} className="mr-4 mr-4 xl:mt-0 mt-3 md:mt-3"/>
+          <img src={ScreenTwelve} className="mr-4 mr-4 xl:mt-0 mt-3 md:mt-3"/>
         </div>
 
-        <div className='xl:ml-[5.3rem] ml-[2.8rem] xl:mt-[4rem] mt-[84rem] mb-[4rem] flex flex-col xl:flex xl:flex-row justify-between object-cover w-[21rem] h-[21rem] xl:w-[22.5rem] xl:h-[22.5rem]'>
-          <img src={ScreenThirteen} className="mr-4"/>
-          <img src={ScreenFourteen} className="mr-4 xl:mt-0 mt-3"/>
-          <img src={ScreenFifteen} className="mr-4 xl:mt-0 mt-3"/>
-          <img src={ScreenSixteen} className="mr-4 xl:mt-0 mt-3" />
+        <div className='xl:ml-[5.3rem] ml-[2.8rem] xl:mt-[4rem] mt-[84rem] mb-[4rem] md:mt-[3rem] md:grid md:grid-cols-2 md:gap-4 md:w-[47rem] md:h-[47rem] flex flex-col xl:flex xl:flex-row justify-between object-cover w-[21rem] h-[21rem] xl:w-[22.5rem] xl:h-[22.5rem]'>
+          <img src={ScreenThirteen} className="mr-4 md:mt-3"/>
+          <img src={ScreenFourteen} className="mr-4 xl:mt-0 mt-3 md:mt-3"/>
+          <img src={ScreenFifteen} className="mr-4 xl:mt-0 mt-3 md:mt-3"/>
+          <img src={ScreenSixteen} className="mr-4 xl:mt-0 mt-3 md:mt-3" />
         </div>
 
-        <div className='xl:mt-[0rem] mt-[86rem] bg-black w-full xl:bg-black xl:w-full'>
+        <div className='md:mt-[5rem] xl:mt-[0rem] mt-[86rem] bg-black w-full xl:bg-black xl:w-full'>
 
 <div>
-    <div className='flex flex-row ml-[.8rem] py-[4rem] xl:flex xl:flex-row xl:ml-[5.3rem] xl:py-[4rem]'>
+    <div className='md:ml-[3rem] flex flex-row ml-[.8rem] py-[4rem] xl:flex xl:flex-row xl:ml-[5.3rem] xl:py-[4rem]'>
     <img src={MetaLogo} alt="meta_building" />
     <h1 className='font-bold text-[1rem] text-white xl:font-bold xl:text-[2rem] xl:text-white font-redrose'>Metabnb</h1>
     </div>
 
-    <div className='flex flex-row ml-[.8rem] xl:flex xl:flex-row xl:ml-[5.3rem]'>
+    <div className='flex flex-row md:ml-[3rem] ml-[.8rem] xl:flex xl:flex-row xl:ml-[5.3rem]'>
         <img src={FacebookLogo} alt="facebook logo" className='object-cover w-2 h-4 mb-6'/>
         <img src={InstagramLogo} alt="instagram logo" className='ml-[2rem] object-cover w-4 h-4' />
-        <img src={TwitterLogo} alt="twitter logo" className='ml-[2rem] object-cover w-4 h-[.8rem]' />
+        <img src={TwitterLogo} alt="twitter logo" className='md:object-cover md:w-4 md:h-[.9rem] ml-[2rem] object-cover w-4 h-[.8rem]' />
         
     </div>
 
-    <div className='flex flex-row ml-[.8rem] xl:flex xl:flex-row xl:ml-[5.3rem]'>
+    <div className='md:ml-[3rem] flex flex-row ml-[.8rem] xl:flex xl:flex-row xl:ml-[5.3rem]'>
     <img src={CopyrightLogo} alt="copyright logo" className='object-cover w-4 h-[1rem] mt-1' />
     <p className='text-white ml-2 font-redrose'>2022 Metabnb</p>
     </div>
 
 </div>
 
-<div className='text-white ml-[10rem] mt-[-15rem] flex flex-row py-[4rem] leading-7 xl:text-white xl:ml-[20rem] xl:mt-[-15rem] xl:flex xl:flex-row xl:justify-around xl:py-[4rem] xl:leading-7'>
+<div className='text-white md:ml-[16rem] ml-[10rem] mt-[-15rem] flex flex-row py-[4rem] leading-7 xl:text-white xl:ml-[20rem] xl:mt-[-15rem] xl:flex xl:flex-row xl:justify-around xl:py-[4rem] xl:leading-7'>
     <div >
-    <h1 className='font-bold text-[.7rem] xl:font-bold xl:text-[1rem] font-redrose'>Community</h1>
-    <p className='text-[.5rem] xl:text-[.8rem] font-redrose'>NFT</p>
-    <p className='text-[.5rem] xl:text-[.8rem] font-redrose'>Tokens</p>
-    <p className='text-[.5rem] xl:text-[.8rem] font-redrose'>Landlords</p>
-    <p className='text-[.5rem] xl:text-[.8rem] font-redrose'>Discord</p>
+    <h1 className='font-bold md:text-[1rem] text-[.7rem] xl:font-bold xl:text-[1rem] font-redrose'>Community</h1>
+    <p className='text-[.5rem] md:text-[.8rem] xl:text-[.8rem] font-redrose'>NFT</p>
+    <p className='text-[.5rem] md:text-[.8rem] xl:text-[.8rem] font-redrose'>Tokens</p>
+    <p className='text-[.5rem] md:text-[.8rem] xl:text-[.8rem] font-redrose'>Landlords</p>
+    <p className='text-[.5rem] md:text-[.8rem] xl:text-[.8rem] font-redrose'>Discord</p>
     </div>
     
-    <div className='ml-6 xl:ml-0'>
-    <h2 className='font-bold text-[.7rem] xl:font-bold xl:text-[1rem] font-redrose'>Places</h2>
-    <p className='text-[.5rem] xl:text-[.8rem] font-redrose'>Castle</p>
-    <p className='text-[.5rem] xl:text-[.8rem] font-redrose'>Farms</p>
-    <p className='text-[.5rem] xl:text-[.8rem] font-redrose'>Beach</p>
-    <p className='text-[.5rem] xl:text-[.8rem] font-redrose'>Learn more</p>
+    <div className='ml-6 md:ml-[6rem] xl:ml-0'>
+    <h2 className='font-bold md:text-[1rem] text-[.7rem] xl:font-bold xl:text-[1rem] font-redrose'>Places</h2>
+    <p className='text-[.5rem] md:text-[.8rem] xl:text-[.8rem] font-redrose'>Castle</p>
+    <p className='text-[.5rem] md:text-[.8rem] xl:text-[.8rem] font-redrose'>Farms</p>
+    <p className='text-[.5rem] md:text-[.8rem] xl:text-[.8rem] font-redrose'>Beach</p>
+    <p className='text-[.5rem] md:text-[.8rem] xl:text-[.8rem] font-redrose'>Learn more</p>
     </div>
 
-    <div className='ml-6 xl:ml-0'>
-    <h2 className='font-bold text-[.7rem] xl:font-bold xl:text-[1rem] font-redrose'>About us</h2>
-    <p className='text-[.5rem] xl:text-[.8rem] font-redrose'>Road map</p>
-    <p className='text-[.5rem] xl:text-[.8rem] font-redrose'>Creators</p>
-    <p className='text-[.5rem] xl:text-[.8rem] font-redrose'>Career</p>
-    <p className='text-[.5rem] xl:text-[.8rem] font-redrose'>Contact us</p>
+    <div className='ml-6 md:ml-[6rem] xl:ml-0'>
+    <h2 className='font-bold md:text-[1rem] text-[.7rem] xl:font-bold xl:text-[1rem] font-redrose'>About us</h2>
+    <p className='text-[.5rem] md:text-[.8rem] xl:text-[.8rem] font-redrose'>Road map</p>
+    <p className='text-[.5rem] md:text-[.8rem] xl:text-[.8rem] font-redrose'>Creators</p>
+    <p className='text-[.5rem] md:text-[.8rem] xl:text-[.8rem] font-redrose'>Career</p>
+    <p className='text-[.5rem] md:text-[.8rem] xl:text-[.8rem] font-redrose'>Contact us</p>
     </div>
 
 </div>
@@ -167,7 +167,7 @@ const PlaceToStayScreen = () => {
       <Modal
       isOpen={modal}
       onRequestClose={modal}
-      className="ml-[.5rem] xl:-ml:[0rem] object-cover translate-x-[19%] w-[18rem] h-[15rem] xl:h-[21rem] translate-y-[100%] border bg-white rounded-[1rem] xl:top-[50%] xl:left-[54%] xl:right-auto xl:bottom-auto xl:pl-[-50%] xl:translate-x-[76%] xl:translate-y-[47%] xl:rounded-[1rem] xl:border xl:bg-white xl:w-[36rem]"
+      className="md:object-cover md:w-[35rem] md:h-[20rem] ml-[.5rem] xl:-ml:[0rem] object-cover translate-x-[19%] w-[18rem] h-[15rem] xl:h-[21rem] translate-y-[100%] border bg-white rounded-[1rem] xl:top-[50%] xl:left-[54%] xl:right-auto xl:bottom-auto xl:pl-[-50%] xl:translate-x-[76%] xl:translate-y-[47%] xl:rounded-[1rem] xl:border xl:bg-white xl:w-[36rem]"
       >
       <ConnectWalletScreen CloseModal={CloseModal}/> 
       </Modal>

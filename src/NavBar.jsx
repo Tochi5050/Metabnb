@@ -9,7 +9,7 @@ const NavBar = ({OpenModal}) => {
  return (
     <div>
         <div className="fixed xl:relative z-30 top-0 left-0 right-0 bg-white overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide py-4 flex flex-row xl:flex xl:flex-row xl:justify-around xl:mt-2">
-        <Link to="/"><span className="cursor-pointer flex flex-row mt-[1.6rem] xl:cursor-pointer xl:flex xl:flex-row xl:mt-[1.4rem]"><img src={Meta_Building} alt="meta-building"/><img src={Metabnb} alt="metabnb"/></span></Link>
+        <Link to="/"><span className="cursor-pointer flex flex-row mt-[1.6rem] md:object-cover md:ml-[3rem] md:w-[6rem] md:h-[1rem] md:mt-[2.4rem] xl:cursor-pointer xl:flex xl:flex-row xl:mt-[1.4rem]"><img src={Meta_Building} alt="meta-building"/><img src={Metabnb} alt="metabnb"/></span></Link>
             <span className="flex flex-row justify-between ml-[3rem] mt-9 font-semibold xl:flex xl:flex-row xl:justify-between xl:mt-9 xl:font-semibold">
             <p className='cursor-pointer mr-[-.8rem] xl:cursor-pointer xl:mr-[19rem] font-redrose'><Link to="/">Home</Link></p>
             <p className="cursor-pointer ml-[3rem] xl:cursor-pointer xl:ml-[-15rem] font-redrose"><Link to="/placetostay">Place to stay</Link></p>
