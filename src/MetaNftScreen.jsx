@@ -1,13 +1,11 @@
 import React from 'react'
-import NftImageTop from './assets/Nft_image_top.png'
-import NftImageLeft from './assets/Nft_image_left.png'
-import NftImageRight from './assets/Nft_image_right.png'
+import NFTImage from './assets/nft_triple_images.png'
 const MetaNftScreen = () => {
   return (
     <div>
 
-      <div className='mt-[85rem] md:mt-[5rem] xl:h-[51rem] md:h-[33rem] h-[40rem] bg-[#A02279] w-full xl:bg-[#A02279] xl:w-full xl:mt-[3rem]'>
-       <div className='ml-[5.3rem] py-[10rem] xl:ml-[5.3rem] xl:py-[10rem]'>
+      <div className='mt-[85rem] md:mt-[5rem] xl:h-[42rem] md:h-[24rem] h-[37rem] bg-[#A02279] w-full xl:bg-[#A02279] xl:w-full xl:mt-[3rem]'>
+       <div className='ml-[5.3rem] py-[10rem] xl:ml-[8rem] xl:py-[10rem]'>
 
         <h1 className='font-bold text-[1.8rem] mt-[-6rem] ml-[-1.8rem] text-white font-mono mb-8 xl:font-bold xl:text-[3rem] xl:mt-0 xl:ml xl:text-white xl:mb-8 font-redrose'>Metabnb NFTs</h1>
 
@@ -20,10 +18,8 @@ const MetaNftScreen = () => {
 
         </div>
 
-        <div className='ml-[13rem] md:ml-[33rem] mt-[-14rem] md:mt-[-34.5rem] md:py-[10rem] md:object-cover md:w-[14rem] md:h-[14rem] py-[6rem] xl:ml-[50rem] xl:mt-[-40rem] xl:py-[6rem]'>
-            <img src={NftImageTop} alt="nft" className='ml-[-3.5rem] md:ml-[-2.7rem] xl:ml-[0rem]'/>
-            <img src={NftImageLeft} alt="nft" className='ml-[-10.1rem] md:ml-[-10.8rem] md:mt-[-5rem] mt-[-5.3rem] xl:ml-[-15rem] xl:mt-[-10.5rem]'/>
-            <img src={NftImageRight} alt="nft" className='mt-[-6.5rem] md:mt-[-10rem] md:ml-[-1.5rem] ml-[-2.4rem] xl:mt-[-18.2rem] xl:ml-[2.2rem]'/>
+        <div className='ml-[7rem] md:ml-[26rem] mt-[-13rem] md:mt-[-34rem] md:py-[10rem] object-cover w-[16rem] h-[16rem] md:object-cover md:w-[20rem] md:h-[20rem] py-[6rem] xl:ml-[40rem] xl:mt-[-40rem] xl:py-[6rem] xl:object-cover xl:w-[35rem] xl:h-[35rem]'>
+            <img src={NFTImage} alt="nft" className='ml-[-3.5rem] md:ml-[-2.7rem] xl:ml-[0rem]'/>
         </div>
 
         </div>
